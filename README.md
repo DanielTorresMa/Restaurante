@@ -50,9 +50,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 
 - **Consulta en SQL:**
-<div align="center">
-  <img src="./Imagenes proyecto/1.png" width=90%>
-</div>
+![Imagen 1](Imagenes%20proyecto/1.png)
   ```sql
   
   
