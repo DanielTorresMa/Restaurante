@@ -36,7 +36,11 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ### Normalización
 
 ### Diagramas (EER y ER)
+##Diagrama ER
 ![Diagrama ER](Diagrama%20ER.png)
+##Diagrama EER
+![Diagrama ER](Restaurante%ETITC%EER.png)
+
 
 ## Pruebas
 
