@@ -45,14 +45,14 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ## Pruebas
 
 ### Consultas 
-### 1. Obtenga el nombre completo y correo electronico de los clientes.
+### 1. Obtenga todos los datos de los clientes.
 **Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
 
 
 - **Consulta en SQL:**
-
-  ```sql
-![Imagen 1](Imagenes%proyecto/1.png)
+```sql
+```
+![Imagen 1](Imagenes%20proyecto/1.PNG)
   
 
 ### 2. Obtenga el nombre completo y correo electronico de los clientes.
@@ -60,11 +60,118 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 
  **Consulta en SQL:**
-<div align="center">
-  <img src="./Imagenes proyecto/2.png" width=90%>
-</div>
   ```sql
+```
+![Imagen 2](Imagenes%20proyecto/2.PNG)
 
+### 3. Listar los proveedores ubicados en una ciudad especifica.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Consulta en SQL:**
+  ```sql
+```
+![Imagen 3](Imagenes%20proyecto/3.PNG)
+
+### 4.Cuales son los productos disponibles, sus precios de ventas y cuantas unidades estan en stock.
+**Objetivo:**  Obtener un listado con informacion clave sobre los prodcutos.
+```sql
+```
+![Imagen 4](Imagenes%20proyecto/4.PNG)
+
+### 5. Actualizar el precio de venta de un producto especifico.
+**Objetivo:**  Es filtrar la lista de productos para identificar aquellos con exitencias superiores a 10 unidades.
+```sql
+```
+![Imagen 5](Imagenes%20proyecto/5.PNG)
+
+### 6. Eliminar un cliente por su cedula.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+```sql
+```
+![Imagen 6](Imagenes%20proyecto/6.PNG)
+
+### 7. Consultar  los productos con unidades disponibles mayores a 10.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+```sql
+```
+![Imagen 7](Imagenes%20proyecto/7.PNG)
+
+### 8. Obtener ventas realizadas por un empleadoe especifico.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+```sql
+```
+![Imagen 8](Imagenes%20proyecto/9.PNG)
+
+### 9. Mostrar el detalle de una de una venta especifica.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+```sql
+```
+![Imagen 9](Imagenes%20proyecto/9.PNG)
+
+### 10. Calcular el total de ventas realizadas(sumando los valores totales con iva).
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+```sql
+```
+![Imagen 10](Imagenes%20proyecto/10.PNG)
+
+### 11. Que peoductos tienen mayor de 10 unidades disponibles en el inventario.
+**Objetivo:** Identificar productos con bajo stock.
+```sql
+```
+![Imagen 11](Imagenes%20proyecto/11.PNG)
+
+### 12. Obtener todas las ventas realizadas por el empleado cuyo usuario es admiinicial.
+**Objetivo:**  El objetivo es obtener informacion sobre ventas asociadas a un empleado en especifico.
+```sql
+```
+![Imagen 12](Imagenes%20proyecto/12.PNG)
+
+### 13. Cuales son los detalles de los productos vendidos en la venta con el codigo 1.
+**Objetivo:**  Obtener informacion especifica sobre los productos incluidos en una venta en particular.
+```sql
+```
+![Imagen 13](Imagenes%20proyecto/13.PNG)
+
+### 14. Obtener ventas realizadas por cada cliente.
+**Objetivo:**  Obtener un la mayoria de clientes con la cantidad total de ventas realizadas incluyendo el iva.
+```sql
+```
+![Imagen 14](Imagenes%20proyecto/14.PNG)
+
+### 15. Cuales son los clientes que han gastado mas de 500 ordenados de mayor a menor gasto.
+**Objetivo:**  El objetivo de la consulta es identificar y listar los clientes con compras mayores a 500 mostrando el monto gastado de mayor a menor.
+```sql
+```
+![Imagen 15](Imagenes%20proyecto/15.PNG)
+
+### 16. Obtener el proveedor con mayor numero de productos disponibles en stock.
+**Objetivo:**  Obtener el proveedor con mayor stock.
+```sql
+```
+![Imagen 16(Imagenes%20proyecto/16.PNG)
+
+### 17. Actualizar el precio de venta de un producto basado en el precio de compra.
+**Objetivo:**  Actualiza el precico de el producto segun el precio base de la compra.
+```sql
+```
+![Imagen 17](Imagenes%20proyecto/17.PNG)
+
+### 18. Cuales son los 5 productos mas vendidos en terminos de cantidad.
+**Objetivo:**  El objetivo de esta consulta es identificar los 5 productos mas populares basandose en la cantidad total de unidades vendidas y ordenados de mayor a menor.
+```sql
+```
+![Imagen 18](Imagenes%20proyecto/18.PNG)
+
+### 19. Listar todos los empleados que han realizado almenos una venta.
+**Objetivo:** El objetivo es listar los empleados que han realizado minimo una venta.
+```sql
+```
+![Imagen 19](Imagenes%20proyecto/19.PNG)
+
+### 20. Obtener los productos mas vendidos (TOP 5).
+**Objetivo:**  Obtener los 5 productos mas vendidos en la tienda.
+```sql
+```
+![Imagen 20](Imagenes%20proyecto/20.PNG)
 
 ### Funciones y/o Rutinas
 
