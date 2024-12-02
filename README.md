@@ -195,10 +195,13 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ## Futuras Mejoras
 
 ## Autores
-Torres Mancipe Daniel Arturo 
-Lara Uñate Juan Pablo
-Ochoa Blanco Kevin David
-Burgos Ortega Diego Alberto 
+•	Torres Mancipe Daniel Arturo 
+
+•	Lara Uñate Juan Pablo
+
+•	Ochoa Blanco Kevin David
+
+•	Burgos Ortega Diego Alberto 
 
 
 Nombres de los participantes del proyecto con una breve descripción de su rol y enlaces de sus Github o páginas web.
