@@ -46,7 +46,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 ### Consultas 
 ### 1. Obtenga todos los datos de los clientes.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Objetivo:**  Conseguir los datos de los clientes registrados.
 
 
 - **Consulta en SQL:**
@@ -65,7 +65,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ![Imagen 2](Imagenes%20proyecto/2.PNG)
 
 ### 3. Listar los proveedores ubicados en una ciudad especifica.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Objetivo:**  Conseguir los proveedores ubicados en Bogotá.
 **Consulta en SQL:**
   ```sql
 ```
@@ -78,31 +78,31 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ![Imagen 4](Imagenes%20proyecto/4.PNG)
 
 ### 5. Actualizar el precio de venta de un producto especifico.
-**Objetivo:**  Es filtrar la lista de productos para identificar aquellos con exitencias superiores a 10 unidades.
+**Objetivo:**  Actualizar el precio del producto con código 101.
 ```sql
 ```
 ![Imagen 5](Imagenes%20proyecto/5.PNG)
 
 ### 6. Eliminar un cliente por su cedula.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Objetivo:**  Eliminar el cliente con número de cedula 987654321.
 ```sql
 ```
 ![Imagen 6](Imagenes%20proyecto/6.PNG)
 
 ### 7. Consultar  los productos con unidades disponibles mayores a 10.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Objetivo:**  Es filtrar la lista de productos para identificar aquellos con exitencias superiores a 10 unidades.
 ```sql
 ```
 ![Imagen 7](Imagenes%20proyecto/7.PNG)
 
-### 8. Obtener ventas realizadas por un empleadoe especifico.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+### 8. Obtener ventas realizadas por un empleado especifico.
+**Objetivo:**  Obtener ventas realizadas por un empleado especifico.
 ```sql
 ```
 ![Imagen 8](Imagenes%20proyecto/9.PNG)
 
 ### 9. Mostrar el detalle de una de una venta especifica.
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+**Objetivo:**  Mostrar los datalles de la venta con código de 1.
 ```sql
 ```
 ![Imagen 9](Imagenes%20proyecto/9.PNG)
