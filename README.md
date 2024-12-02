@@ -36,7 +36,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ### Normalización
 
 ### Diagramas (EER y ER)
-![Texto alternativo](Diagrama ER)
+![Texto alternativo](Diagrama ER.png)
 ## Pruebas
 
 ### Consultas 
