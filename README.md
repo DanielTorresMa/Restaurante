@@ -51,6 +51,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 - **Consulta en SQL:**
 ```sql
+SELECT * FROM empleados;
 ```
 ![Imagen 1](Imagenes%20proyecto/1.PNG)
   
@@ -61,6 +62,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 - **Consulta en SQL:**
 ```sql
+SELECT nombre_completo, correo_electronico FROM clientes;
 ```
 ![Imagen 2](Imagenes%20proyecto/2.PNG)
 
@@ -68,6 +70,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Conseguir los proveedores ubicados en Bogotá.
 - **Consulta en SQL:**
 ```sql
+SELECT * FROM proveedores WHERE ciudad = 'Bogota'; 
 ```
 ![Imagen 3](Imagenes%20proyecto/3.PNG)
 
@@ -75,6 +78,12 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener un listado con informacion clave sobre los prodcutos.
 - **Consulta en SQL:**
 ```sql
+SELECT 
+    nombre_producto,
+    precio_venta,
+    unidades_disponibles
+FROM productos;
+
 ```
 ![Imagen 4](Imagenes%20proyecto/4.PNG)
 
@@ -82,6 +91,10 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Actualizar el precio del producto con código 101.
 - **Consulta en SQL:**
 ```sql
+UPDATE productos 
+SET precio_venta = 7500 
+WHERE codigo_producto = 101;
+
 ```
 ![Imagen 5](Imagenes%20proyecto/5.PNG)
 
@@ -89,6 +102,8 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Eliminar el cliente con número de cedula 987654321.
 - **Consulta en SQL:**
 ```sql
+DELETE FROM clientes 
+WHERE cedula = 987654321;
 ```
 ![Imagen 6](Imagenes%20proyecto/6.PNG)
 
@@ -96,6 +111,9 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Es filtrar la lista de productos para identificar aquellos con exitencias superiores a 10 unidades.
 - **Consulta en SQL:**
 ```sql
+SELECT * FROM productos 
+WHERE unidades_disponibles > 10;
+
 ```
 ![Imagen 7](Imagenes%20proyecto/7.PNG)
 
@@ -103,6 +121,8 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener ventas realizadas por un empleado especifico.
 - **Consulta en SQL:**
 ```sql
+SELECT * FROM ventas 
+WHERE cedula_usuario = 123456789;
 ```
 ![Imagen 8](Imagenes%20proyecto/9.PNG)
 
@@ -110,6 +130,9 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Mostrar los datalles de la venta con código de 1.
 - **Consulta en SQL:**
 ```sql
+SELECT * FROM detalle_ventas 
+WHERE codigo_venta = 1;
+
 ```
 ![Imagen 9](Imagenes%20proyecto/9.PNG)
 
@@ -117,6 +140,8 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Calcular el total de ventas realizadas(sumando los valores totales con iva).
 - **Consulta en SQL:**
 ```sql
+SELECT SUM(valor_total_con_iva) AS total_ventas FROM ventas;
+
 ```
 ![Imagen 10](Imagenes%20proyecto/10.PNG)
 
@@ -124,13 +149,23 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:** Identificar productos con bajo stock.
 - **Consulta en SQL:**
 ```sql
+SELECT codigo_producto, nombre_producto, unidades_disponibles, Max_unidades
+FROM productos
+WHERE unidades_disponibles > 10;
+
 ```
 ![Imagen 11](Imagenes%20proyecto/11.PNG)
 
 ### 12. Obtener todas las ventas realizadas por el empleado cuyo usuario es admiinicial.
-**Objetivo:**  Obtener todas las ventas realizadas por el empleado cuyo usuario es admiinicial.
+**Objetivo:**  Obtener todas las ventas realizadas por el empleado cuyo usuario es adminicial.
 - **Consulta en SQL:**
 ```sql
+SELECT ventas.codigo_venta, clientes.nombre_completo AS cliente, empleados.nombre_completo AS empleado, ventas.valor_total_con_iva
+FROM ventas
+INNER JOIN clientes ON ventas.cedula_cliente = clientes.cedula
+INNER JOIN empleados ON ventas.cedula_usuario = empleados.cedula
+WHERE empleados.usuario = 'admininicial';
+
 ```
 ![Imagen 12](Imagenes%20proyecto/12.PNG)
 
@@ -138,6 +173,11 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener informacion especifica sobre los productos incluidos en una venta en particular.
 - **Consulta en SQL:**
 ```sql
+SELECT dv.codigo_detalle, p.nombre_producto, dv.cantidad, dv.valor_unitario, dv.valor_total
+FROM detalle_ventas dv
+INNER JOIN productos p ON dv.codigo_producto = p.codigo_producto
+WHERE dv.codigo_venta = 1; 
+
 ```
 ![Imagen 13](Imagenes%20proyecto/13.PNG)
 
@@ -145,6 +185,12 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener un la mayoria de clientes con la cantidad total de ventas realizadas incluyendo el iva.
 - **Consulta en SQL:**
 ```sql
+SELECT c.nombre_completo AS cliente, COUNT(v.codigo_venta) AS cantidad_ventas, SUM(v.valor_total_con_iva) AS total_gastado
+FROM ventas v
+INNER JOIN clientes c ON v.cedula_cliente = c.cedula
+GROUP BY c.nombre_completo
+ORDER BY total_gastado DESC;
+
 ```
 ![Imagen 14](Imagenes%20proyecto/14.PNG)
 
@@ -152,6 +198,15 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  El objetivo de la consulta es identificar y listar los clientes con compras mayores a 500 mostrando el monto gastado de mayor a menor.
 - **Consulta en SQL:**
 ```sql
+SELECT 
+    c.nombre_completo AS cliente,
+    SUM(v.valor_total_con_iva) AS total_gastado
+FROM ventas v
+JOIN clientes c ON v.cedula_cliente = c.cedula
+GROUP BY c.nombre_completo
+HAVING SUM(v.valor_total_con_iva) > 500
+ORDER BY total_gastado DESC;
+
 ```
 ![Imagen 15](Imagenes%20proyecto/15.PNG)
 
@@ -159,6 +214,13 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener el proveedor con mayor stock.
 - **Consulta en SQL:**
 ```sql
+SELECT pr.nombre_proveedor, COUNT(p.codigo_producto) AS cantidad_productos
+FROM proveedores pr
+INNER JOIN productos p ON pr.nit = p.nit_proveedor
+GROUP BY pr.nombre_proveedor
+ORDER BY cantidad_productos DESC
+LIMIT 1;
+
 ```
 ![Imagen 16(Imagenes%20proyecto/16.PNG)
 
@@ -166,6 +228,9 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Actualiza el precio de el producto segun el precio base de la compra.
 - **Consulta en SQL:**
 ```sql
+UPDATE productos
+SET precio_venta = precio_compra * 1.2 -- Se puede aplicar un margen de hasta 20%
+WHERE codigo_producto = 1
 ```
 ![Imagen 17](Imagenes%20proyecto/17.PNG)
 
@@ -173,6 +238,13 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  El objetivo de esta consulta es identificar los 5 productos mas populares basandose en la cantidad total de unidades vendidas y ordenados de mayor a menor.
 - **Consulta en SQL:**
 ```sql
+SELECT p.nombre_producto, SUM(dv.cantidad) AS total_vendido
+FROM detalle_ventas dv
+INNER JOIN productos p ON dv.codigo_producto = p.codigo_producto
+GROUP BY p.nombre_producto
+ORDER BY total_vendido DESC
+LIMIT 5;
+
 ```
 ![Imagen 18](Imagenes%20proyecto/18.PNG)
 
@@ -180,6 +252,12 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:** El objetivo es listar los empleados que han realizado minimo una venta.
 - **Consulta en SQL:**
 ```sql
+SELECT e.nombre_completo, e.usuario, COUNT(v.codigo_venta) AS cantidad_ventas
+FROM empleados e
+INNER JOIN ventas v ON e.cedula = v.cedula_usuario
+GROUP BY e.nombre_completo, e.usuario
+ORDER BY cantidad_ventas DESC;
+
 ```
 ![Imagen 19](Imagenes%20proyecto/19.PNG)
 
@@ -187,6 +265,16 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 **Objetivo:**  Obtener los 5 productos mas vendidos en la tienda.
 - **Consulta en SQL:**
 ```sql
+SELECT 
+    c.nombre_completo AS cliente,
+    SUM(dv.cantidad) AS total_productos_adquiridos,
+    SUM(dv.valor_total) AS total_gastado
+FROM detalle_ventas dv
+JOIN ventas v ON dv.codigo_venta = v.codigo_venta
+JOIN clientes c ON v.cedula_cliente = c.cedula
+GROUP BY c.nombre_completo
+ORDER BY total_productos_adquiridos DESC;
+
 ```
 ![Imagen 20](Imagenes%20proyecto/20.PNG)
 
