@@ -1,6 +1,4 @@
-# Proyecto
-
-Desarrollo de plan de estructuración logística para restaurante ETITC
+# Desarrollo de plan de estructuración logística para restaurante ETITC
 
 ## Descripción General
 
