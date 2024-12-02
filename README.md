@@ -222,8 +222,7 @@ ORDER BY cantidad_productos DESC
 LIMIT 1;
 
 ```
-![Imagen 16(Imagenes%20proyecto/16.PNG)
-
+![Imagen 17](Imagenes%20proyecto/16.PNG)
 ### 17. Actualizar el precio de venta de un producto basado en el precio de compra.
 **Objetivo:**  Actualiza el precio de el producto segun el precio base de la compra.
 - **Consulta en SQL:**
