@@ -45,6 +45,28 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ## Pruebas
 
 ### Consultas 
+### 1. Obtenga el nombre completo y correo electronico de los clientes.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+
+
+- **Consulta en SQL:**
+<div align="center">
+  <img src="./Imagenes proyecto/1.png" width=90%>
+</div>
+  ```sql
+  
+  
+
+### 2. Obtenga el nombre completo y correo electronico de los clientes.
+**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+
+
+ **Consulta en SQL:**
+<div align="center">
+  <img src="./Imagenes proyecto/2.png" width=90%>
+</div>
+  ```sql
+
 
 ### Funciones y/o Rutinas
 
