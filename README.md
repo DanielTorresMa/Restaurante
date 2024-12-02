@@ -107,8 +107,8 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ```
 ![Imagen 9](Imagenes%20proyecto/9.PNG)
 
-### 10. Calcular el total de ventas realizadas(sumando los valores totales con iva).
-**Objetivo:**  Conseguir el nombre del cliente con su respectivo correo electronico.
+### 10. Calcular el total de ventas realizadas.
+**Objetivo:**  Calcular el total de ventas realizadas(sumando los valores totales con iva).
 ```sql
 ```
 ![Imagen 10](Imagenes%20proyecto/10.PNG)
@@ -120,7 +120,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ![Imagen 11](Imagenes%20proyecto/11.PNG)
 
 ### 12. Obtener todas las ventas realizadas por el empleado cuyo usuario es admiinicial.
-**Objetivo:**  El objetivo es obtener informacion sobre ventas asociadas a un empleado en especifico.
+**Objetivo:**  Obtener todas las ventas realizadas por el empleado cuyo usuario es admiinicial.
 ```sql
 ```
 ![Imagen 12](Imagenes%20proyecto/12.PNG)
@@ -150,7 +150,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 ![Imagen 16(Imagenes%20proyecto/16.PNG)
 
 ### 17. Actualizar el precio de venta de un producto basado en el precio de compra.
-**Objetivo:**  Actualiza el precico de el producto segun el precio base de la compra.
+**Objetivo:**  Actualiza el precio de el producto segun el precio base de la compra.
 ```sql
 ```
 ![Imagen 17](Imagenes%20proyecto/17.PNG)
