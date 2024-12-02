@@ -50,9 +50,9 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 
 
 - **Consulta en SQL:**
-![Imagen 1](Imagenes%20proyecto/1.png)
+
   ```sql
-  
+![Imagen 1](Imagenes%proyecto/1.png)
   
 
 ### 2. Obtenga el nombre completo y correo electronico de los clientes.
