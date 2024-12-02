@@ -39,7 +39,7 @@ Descripción de como usar el proyecto: descargar, instalar, configurar, etc
 Diagrama ER
 ![Diagrama ER](Diagrama%20ER.png)
 Diagrama EER
-![Diagrama ERR](Restaurante%ETITC%EER.png)
+![Restaurante ETITC EER](Restaurante%ETITC%EER.png)
 
 
 ## Pruebas
