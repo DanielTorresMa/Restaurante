@@ -10,7 +10,9 @@ Estructurar un plan de mejora para el restaurante ETITC revisando sus falencias,
 
 #### Específicos
 •	Identificar las debilidades, oportunidades, fortalezas y amenazas del restaurante ETITC.
+
 •	Diseñar un método de organización que permita mejorar la estructura del restaurante ETITC basado en su DOFA.
+
 •	Presentar al restaurante ETITC la propuesta de estructuración para validar su posible implementación.
 
 ### Descripción del Problema
