@@ -1,7 +1,7 @@
 # Desarrollo de plan de estructuración logística para restaurante ETITC
 
 ## Descripción General
-Este proyecto tiene como propósito principal proponer un plan estructurado para mejorar el desempeño del restaurante ETITC, ubicado dentro de un campus académico. El análisis se centra en identificar y abordar las falencias y oportunidades del restaurante mediante herramientas de diagnóstico organizacional, como la matriz DOFA (Debilidades, Oportunidades, Fortalezas y Amenazas). La finalidad es optimizar los procesos internos del negocio y diseñar estrategias que permitan aumentar las ventas, fidelizar clientes actuales y atraer nuevos consumidores potenciales dentro de la comunidad.
+Este proyecto tiene como propósito principal proponer un plan estructurado para mejorar el desempeño del restaurante ETITC. El proyecto se centra en identificar y abordar las falencias y oportunidades del restaurante mediante herramientas de diagnóstico organizacional, como la matriz DOFA. La finalidad es optimizar los procesos internos del negocio y diseñar estrategias que permitan aumentar las ventas, fidelizar clientes actuales y atraer nuevos consumidores potenciales dentro de la comunidad.
 
 ### Objetivos
 
