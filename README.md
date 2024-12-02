@@ -19,9 +19,10 @@ Estructurar un plan de mejora para el restaurante ETITC revisando sus falencias,
 El restaurante ETITC ha identificado falta de orden en los procesos que el restaurante maneja de manera interna como lo son el control de inventario, los registros de compra y venta, así como los registros de proveedores, clientes y el empleado que realiza la venta, lo que genera inconvenientes para el restaurante como falta de disponibilidad de productos, descuadre de la caja o fallos al identificar los implicados en las transacciones. 
 
 ### Justificación
-El restaurante ETITC, al trabajar de manera interna del campus y tener nicho reducido, debe maximizar las oportunidades, ya que tiene una variable del número de clientes donde puede aumentar o disminuir ligeramente dentro un margen de error limitado, pues el número de clientes posibles es limitado lo que a su vez limita el crecimiento del negocio. Por ello, se requiere realizar un análisis DOFA basado en datos del restaurante ETITC que permita hacer una estrategia para que las ventas puedan aumentar y los clientes compren de manera constante posiblemente atrayendo otros clientes potenciales que hacen parte de la comunidad, pero no acostumbran a comprar en la tienda. Este análisis saldría de la matriz DOFA que se propone. 
-### Requerimiento del Proyecto
+El restaurante ETITC, al trabajar de manera interna del campus y tener nicho reducido, debe maximizar las oportunidades, ya que tiene una variable del número de clientes donde puede aumentar o disminuir ligeramente dentro un margen de error limitado, pues el número de clientes posibles es limitado lo que a su vez limita el crecimiento del negocio. Por ello, se requiere realizar un análisis DOFA basado en datos del restaurante ETITC que permita hacer una estrategia para que las ventas puedan aumentar y los clientes compren de manera constante posiblemente atrayendo otros clientes potenciales que hacen parte de la comunidad, pero no acostumbran a comprar en la tienda. Este análisis saldría de la matriz DOFA que se propone.
 
+### Requerimiento del Proyecto
+El proyecto requiere desarrollar un sistema que permita integrar los datos del Restaurante ETITC. Se requiere diseñar una base de datos relacional con Funcionamiento CRUD y una interfaz desde donde se pueda ingresar, leer, actualizar y borrar información permitiendo así manejar temas de ventas inventario, proveedores o visualizaciones de estadísticas o previsión.
 
 ## Instrucciones de Uso
 
