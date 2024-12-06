@@ -279,7 +279,7 @@ ORDER BY total_productos_adquiridos DESC;
 ![Imagen 20](Imagenes%20proyecto/20.PNG)
 
 ### Funciones y/o Rutinas
-Actualiza el stock de un producto
+1.Actualiza el stock de un producto
 Permite modificar las unidades disponibles de un producto.
 ```sql
 DELIMITER $$
@@ -297,6 +297,23 @@ END $$
 DELIMITER ;
 ```
 ![Imagen1](Imagenes%20proyecto/20.PNG)
+
+2.Consultar información de un cliente
+Permite obtener información detallada de un cliente específico.
+```sql
+DELIMITER $$
+CREATE PROCEDURE ActualizarStockProducto (
+    IN codigoProducto INT,
+    IN nuevasUnidades INT
+)
+BEGIN
+    UPDATE productos
+    SET unidades_disponibles = nuevasUnidades
+    WHERE codigo_producto = codigoProducto;
+END $$
+DELIMITER ;
+```
+![Imagen2](Imagenes%20proyecto/20.PNG)
 ## Autores
 •	Torres Mancipe Daniel Arturo 
 
