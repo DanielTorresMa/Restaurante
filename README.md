@@ -280,8 +280,6 @@ ORDER BY total_productos_adquiridos DESC;
 
 ### Funciones y/o Rutinas
 
-## Futuras Mejoras
-
 ## Autores
 •	Torres Mancipe Daniel Arturo 
 
@@ -292,7 +290,6 @@ ORDER BY total_productos_adquiridos DESC;
 •	Burgos Ortega Diego Alberto 
 
 
-Nombres de los participantes del proyecto con una breve descripción de su rol y enlaces de sus Github o páginas web.
 
 ## Conclusiones
 Este proyecto cumplió con los objetivos planteados, resolviendo el problema identificado de manera efectiva. Se diseñó un sistema bien estructurado, con una base de datos optimizada y un modelado claro que garantiza un buen manejo de la información.
@@ -301,3 +298,5 @@ En resumen, el proyecto es funcional, escalable y cumple con su propósito, most
 
 
 ## Referencias
+canadiancollege. (4 de 9 de 2024). www.canadiancollege.edu.co. Obtenido de www.canadiancollege.edu.co: https://www.canadiancollege.edu.co/blog/20-ejemplos-de-matriz-dofa-para-empresas#:~:text=La%20matriz%20DOFA%20es%20una%20herramienta%20de%20planificaci%C3%B3n%20estrat%C3%A9gica%20que,te%20dan%20una%20ventaja%20competitiva.
+Kotler, P. (2001). DIRECCIÓN DE MERCADOTECNIA. En P. Kotler, DIRECCIÓN DE MERCADOTECNIA - OCTAVA EDICIÓN (pág. 84). Pearson Education.
