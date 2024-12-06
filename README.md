@@ -331,14 +331,16 @@ DELIMITER ;
 ```
 ![Imagen3](Imagenes%20proyecto/20.PNG)
 ## Autores
-•	Torres Mancipe Daniel Arturo 
+•	Torres Mancipe Daniel Arturo - Creación base de datos
 
-•	Lara Uñate Juan Pablo
+•	Lara Uñate Juan Pablo - Organización proyecto
 
-•	Ochoa Blanco Kevin David
+•	Ochoa Blanco Kevin David - Gestión documental
 
-•	Burgos Ortega Diego Alberto 
+•	Burgos Ortega Diego Alberto - Creación consultas
 
+##Futuras mejoras
+Aunque todo el sistema de gestión se encuentra funcional. Los planes futuros requieren el desarrollo de una interfaz con su respectiva integración y conexión a base de datos en una vista amigable y cómoda pára los diferentes usuarios que manipulan el sistema como son los empleados y el administrador.
 
 
 ## Conclusiones
