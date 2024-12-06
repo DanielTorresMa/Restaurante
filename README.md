@@ -314,6 +314,22 @@ END $$
 DELIMITER ;
 ```
 ![Imagen2](Imagenes%20proyecto/20.PNG)
+
+3.Verificar disponibilidad de producto
+Devuelve las unidades disponibles de un producto.
+```sql
+DELIMITER $$
+CREATE PROCEDURE VerificarDisponibilidadProducto (
+    IN codigoProducto INT
+)
+BEGIN
+    SELECT nombre_producto, unidades_disponibles, Max_unidades
+    FROM productos
+    WHERE codigo_producto = codigoProducto;
+END $$
+DELIMITER ;
+```
+![Imagen3](Imagenes%20proyecto/20.PNG)
 ## Autores
 •	Torres Mancipe Daniel Arturo 
 
