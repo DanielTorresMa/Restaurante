@@ -281,6 +281,7 @@ ORDER BY total_productos_adquiridos DESC;
 ### Funciones y/o Rutinas
 Actualiza el stock de un producto
 Permite modificar las unidades disponibles de un producto.
+```sql
 DELIMITER $$
 CREATE PROCEDURE RegistrarCliente (
     IN cedulaCliente INT,
@@ -294,6 +295,7 @@ BEGIN
     VALUES (cedulaCliente, nombreCliente, direccionCliente, telefonoCliente, correoCliente);
 END $$
 DELIMITER ;
+```
 ![Imagen1](Imagenes%20proyecto/20.PNG)
 ## Autores
 •	Torres Mancipe Daniel Arturo 
