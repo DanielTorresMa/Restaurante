@@ -279,7 +279,22 @@ ORDER BY total_productos_adquiridos DESC;
 ![Imagen 20](Imagenes%20proyecto/20.PNG)
 
 ### Funciones y/o Rutinas
-
+Actualiza el stock de un producto
+Permite modificar las unidades disponibles de un producto.
+DELIMITER $$
+CREATE PROCEDURE RegistrarCliente (
+    IN cedulaCliente INT,
+    IN nombreCliente VARCHAR(40),
+    IN direccionCliente VARCHAR(40),
+    IN telefonoCliente VARCHAR(40),
+    IN correoCliente VARCHAR(40)
+)
+BEGIN
+    INSERT INTO clientes (cedula, nombre_completo, direccion, telefono, correo_electronico)
+    VALUES (cedulaCliente, nombreCliente, direccionCliente, telefonoCliente, correoCliente);
+END $$
+DELIMITER ;
+![Imagen1](Imagenes%20proyecto/20.PNG)
 ## Autores
 •	Torres Mancipe Daniel Arturo 
 
