@@ -339,7 +339,7 @@ DELIMITER ;
 
 •	Burgos Ortega Diego Alberto - Creación consultas
 
-##Futuras mejoras
+## Futuras mejoras
 Aunque todo el sistema de gestión se encuentra funcional. Los planes futuros requieren el desarrollo de una interfaz con su respectiva integración y conexión a base de datos en una vista amigable y cómoda pára los diferentes usuarios que manipulan el sistema como son los empleados y el administrador.
 
 
