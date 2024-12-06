@@ -295,5 +295,9 @@ ORDER BY total_productos_adquiridos DESC;
 Nombres de los participantes del proyecto con una breve descripción de su rol y enlaces de sus Github o páginas web.
 
 ## Conclusiones
+Este proyecto cumplió con los objetivos planteados, resolviendo el problema identificado de manera efectiva. Se diseñó un sistema bien estructurado, con una base de datos optimizada y un modelado claro que garantiza un buen manejo de la información.
+Las pruebas realizadas confirmaron que el sistema funciona correctamente, cumpliendo con los requisitos técnicos. Además, se dejaron bases para futuras mejoras que permitan ampliar las capacidades del proyecto y adaptarlo a nuevas necesidades.
+En resumen, el proyecto es funcional, escalable y cumple con su propósito, mostrando la importancia del trabajo en equipo y la buena planificación
+
 
 ## Referencias
